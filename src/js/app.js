@@ -3,9 +3,9 @@ export default function Character(name, type) {
     Bowman: { attack: 25, defence: 25 },
     Swordsman: { attack: 40, defence: 10 },
     Magician: { attack: 10, defence: 40 },
-    Daemon: { attack: 25, defence: 25 },
-    Undead: { attack: 40, defence: 10 },
-    Zombie: { attack: 10, defence: 40 },
+    Daemon: { attack: 10, defence: 40 },
+    Undead: { attack: 25, defence: 25 },
+    Zombie: { attack: 40, defence: 10 },
   };
 
   if (!(type in types)) {
